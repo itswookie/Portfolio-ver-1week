@@ -36,22 +36,22 @@ $(document).ready(function () {
   })
 
   $("#nav3").click(function () {
-    $("h1").text("Realizaciones en el área")
+    $("h1").text("Realizaciones")
     $("#text1").html(`<div class="d-flex">
                       <div class="card col-5 mx-auto" data-bs-theme="dark">
-                      <h5 class="card-header lato-title">Featured</h5>
+                      <h5 class="card-header lato-title">inProcess</h5>
                       <div class="card-body lato-text">
-                      <h5 class="lato-text">Special title treatment</h5>
-                      <p class="lato-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="lato-text">inProcess</h5>
+                      <p class="lato-text">inProcess</p>
                       <a href="assets/img/under construction.webp" target="_blank" class="btn border roboto-mono-bttn color-bttn">Go somewhere</a>
                       </div>
                       </div>
 
-                      <div class="card col-5 mx-auto" data-bs-theme="dark">
-                      <h5 class="card-header lato-title">Featured</h5>
+                    <div class="card col-5 mx-auto" data-bs-theme="dark">
+                      <h5 class="card-header lato-title">inProcess</h5>
                       <div class="card-body lato-text">
-                      <h5 class="lato-text">Special title treatment</h5>
-                      <p class="lato-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="lato-text">inProcess</h5>
+                      <p class="lato-text">inProcess</p>
                       <a href="assets/img/under construction.webp" target="_blank" class="btn border roboto-mono-bttn color-bttn">Go somewhere</a>
                       </div>
                       </div>

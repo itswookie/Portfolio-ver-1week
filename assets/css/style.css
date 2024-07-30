@@ -18,24 +18,55 @@
     color: #838370;
 }
 
+/* ------------------- Responsividad NavBar XS-LG ------------------*/
+
+@media(min-width: 992px) {
+    .lato-nav {
+        font-family: "Lato", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+    }
+}
+
+@media(max-width:991px) {
+    .color-separador {
+        display: none;
+    }
+
+    .lato-nav {
+        font-family: "Lato", sans-serif;
+        font-weight: 390;
+        font-style: normal;
+
+    }
+}
+
+@media(max-width:767px) {
+    .lato-nav {
+        font-family: "Lato", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+    }
+}
+
 /* ------------------- Tamaño imágenes ------------------*/
 
 .resize-img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     margin-top: 100%;
 }
 
 .resize-bg {
-    height: 643px;
-    width: 290px;
+    height: 400px;
+    width: 250px;
 }
 
 /* ------------------- Div margen laterales ------------------*/
 
 .aside-cont {
-    margin-top: 50%;
-    height: 647px;
+    margin-top: 45%;
+    height: 402px;
 }
 
 /* ------------------- Colores Misc ------------------*/
@@ -49,19 +80,14 @@
 }
 
 .icon-color {
-color: #6f42c1;
+    color: #6f42c1;
 }
+
 /* .swagg-bttn-color {
     background-color: #23155C;
 } */
 
 /* ------------------- Fuentes ------------------*/
-
-.lato-nav {
-    font-family: "Lato", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-}
 
 .lato-title {
     font-family: "Lato", sans-serif;
