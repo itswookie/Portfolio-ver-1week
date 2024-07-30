@@ -7,24 +7,83 @@
     background-color: #0A0A06;
 }
 
-/* NAVEGADOR */
+.alertt {
+    display: none;
+}
+
+/* -------------------Separador NavBar ------------------*/
+
+
 .color-separador {
     color: #838370;
 }
 
-.lato-black {
+/* ------------------- Tamaño imágenes ------------------*/
+
+.resize-img {
+    height: 300px;
+    width: 300px;
+    margin-top: 100%;
+}
+
+.resize-bg {
+    height: 643px;
+    width: 290px;
+}
+
+/* ------------------- Div margen laterales ------------------*/
+
+.aside-cont {
+    margin-top: 50%;
+    height: 647px;
+}
+
+/* ------------------- Colores Misc ------------------*/
+
+.red-bttn-color {
+    background-color: #45141D;
+}
+
+.color-bttn {
+    color: #7C7AB7;
+}
+
+.icon-color {
+color: #6f42c1;
+}
+/* .swagg-bttn-color {
+    background-color: #23155C;
+} */
+
+/* ------------------- Fuentes ------------------*/
+
+.lato-nav {
     font-family: "Lato", sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     font-style: normal;
 }
 
-.lato-regular {
+.lato-title {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.lato-text {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.bg-gradient {
-    background-image: var(--bs-gradient);
-    
+.roboto-mono-bttn {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
+/* ------------------- Gradiente Laterales ------------------*/
+
+/* .bg-gradient {
+    background-image: var(--bs-gradient);
+} */

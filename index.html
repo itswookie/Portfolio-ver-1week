@@ -9,95 +9,147 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portafolio</title>
+    <link rel="shortcut icon" href="assets/img/ditto ico.ico">
+    <title>Portafolio-1week</title>
 </head>
 
 <body id="body">
-    <!-- section------------------------>
-    <div class="d-flex bd-highlight">
-        <div class="col-2">
-            <div class="d-flex bd-highlight shadow-lg flex-grow-1 bg-gradient"
-                style="height: 100%; padding-bottom:100%;">
-                <div class="col-md-10 border p-5 mx-auto" style="margin-top: 100%;"></div> <!-- margin style -->
+    <div class="alert alert-danger text-center roboto-mono-bttn fs-1 alertt" role="alert" id="red-alert"> ¡
+        ------ DESTROYING ANY VISUAL ZERG ------ !</div>
+    <!-- section left------------------------>
+    <div class="d-flex">
+        <div class="col-2 shadow-lg bg-gradient">
+            <div class="col-10 mx-auto aside-cont">
+                <div class="position-relative">
+                    <img src="assets/img/bg-ditto.gif" alt="bg stars" class="position-absolute img-fluid resize-bg">
+                    <img src="assets/img/ditto dancing.gif" alt="dancing ditto"
+                        class="position-absolute img-fluid resize-img">
+                </div>
             </div>
         </div>
         <!------------------ NavBar --------------->
-        <div class="flex-grow-1 bd-highlight">
-            <nav class="navbar navbar-expand-lg bg-dark p-4" data-bs-theme="dark">
+        <div class="flex-grow-1">
+            <nav class="navbar navbar-expand-lg bg-dark p-4 rounded-bottom-3 mb-4" data-bs-theme="dark">
                 <div class="mx-auto">
-                    <a class="navbar-brand fs-4 lato-black m-5" href="#scrollspyHeading1">Sobre mí</a>
-                    <a class="fs-2 color-separador m-5" href="">|</a>
-                    <a class="navbar-brand fs-4 lato-black m-5" href="#scrollspyHeading2">Habilidades</a>
-                    <a class="fs-2 color-separador m-5">|</a>
-                    <a class="navbar-brand fs-4 lato-black m-5" href="#scrollspyHeading3">Proyectos</a>
+                    <a class="navbar-brand lato-nav fs-4 m-5" href="#" id="nav1">Sobre mí</a>
+                    <span class="color-separador fs-2 m-5" href="">|</span>
+                    <a class="navbar-brand lato-nav fs-4 m-5" href="#" id="nav2">Habilidades</a>
+                    <span class="color-separador fs-2 m-5">|</span>
+                    <a class="navbar-brand lato-nav fs-4 m-5" href="#" id="nav3">Proyectos</a>
                 </div>
             </nav>
+            <main>
+                <h1 class="container pt-5 mb-5 text-white lato-title text-center">Acerca de mí</h1>
+                <!-- Collapse -->
+                <div class="collapse position-absolute" id="collapseZerg">
+                    <button type="button" class="btn-close bg-light" aria-label="Close" id="close-bttn"></button>
+                    <div class="card card-body bg-dark">
+                        <img src="assets/img/zerg-destroyed.webp" alt="zergling gif" width="100%" id="destroyed-zerg">
+                    </div>
+                </div>
+                <!-- End Collapse -->
+                <!-- Text 1 -->
+                <div class="container pt-3 mb-4 text-white lato-text fs-5" id="text1">
+                    Soy un padre de familia orgulloso de su hija y dedicado a ella... Además de cargar a mi hija en los
+                    hombros, me dedico también a cocinar, refregar la ropa, colgar la ropa,
+                    aseo del hogar, orden y justicia dentro de los quehaceres de la casa... Así es señores, en mi casa
+                    mando
+                    yo
+                    <div data-bs-toggle="collapse" data-bs-target="#dijo" class="btn text-white fs-3 roboto-mono-bttn"
+                        id="spant1">, CLARAMENTE.
+                        <img src="assets/img/memedijo.png" alt="memedijo" class="collapse position-absolute" id="dijo">
+                    </div>
+                </div>
+                <!-- Text 2 -->
+                <div class="container pt-3 mb-4 text-white lato-text fs-5" id="text2"></div>
+
         </div>
-        <!-- section ms-auto----------->
-        <div class="flex bd-highlight col-2 shadow-lg col-2 bg-gradient ms-auto">
-            <div class="col-md-10 border p-5 mx-auto" style="margin-top: 100%;"></div> <!-- margin style -->
+        </main>
+        <!----------------- section der / sin ms-auto ----------->
+        <div class="col-2 shadow-lg bg-gradient">
+            <div class="col-10 mx-auto aside-cont position-relative">
+                <img src="assets/img/fondo-zergling.png" alt="bg chill" class="position-absolute img-fluid resize-bg">
+                <img src="assets/img/zergling.gif" alt="dancing zergling"
+                    class="position-absolute img-fluid resize-img">
+            </div>
+            <!-- Botón rojo -->
+            <p class="text-light mt-4 text-center roboto-mono-bttn">
+                <button class="btn red-bttn-color shadow-lg col-8 col-sm-8 col-lg-8" type="button" data-bs-theme="dark"
+                    data-bs-toggle="collapse" data-bs-target="#collapseZerg" aria-expanded="false"
+                    aria-controls="collapseZerg" id="red-bttn">
+                    Dont Click Me pls.
+                </button>
+            </p>
         </div>
     </div>
-    <!-- imagen
-    <div class="d-inline-block">
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <!-- Footer -->
+    <footer class="container border-top border-dark pt-3 text-center mb-4 fs-1">
+        <a href="assets/img/under construction.webp" target="_blank"><i class="ms-5 me-5 fa-brands fa-facebook"></i></a>
+        <a href="assets/img/under construction.webp" target="_blank"><i class="ms-5 me-5 fa-brands fa-telegram"></i></a>
+        <a href="assets/img/under construction.webp" target="_blank"><i class="ms-5 me-5 fa-brands fa-linkedin"></i></a>
+        <!-------------- Formulario Contacto -------------->
+        <button class="btn border-dark fs-5 roboto-mono-bttn d-inline-block ms-5 color-bttn" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+            aria-controls="offcanvasBottom">¡Contáctame!</button>
 
-
-            <h4 id="scrollspyHeading1">First heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading2">Second heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading3">Third heading</h4>
-            <p>...</p>
+        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasBottom"
+            aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title lato-title fs-2 mt-5 mb-3" id="offcanvasBottomLabel">Formulario
+                    de Contacto
+                </h5>
+                <button type="button" class="btn-close text-reset btn-close-white fs-6" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+                <!-------------------------Validation--------------- -->
+                <form class="needs-validation" novalidate>
+                    <div class="col-6 fs-3 lato-text mb-4 ms-3 text-start">
+                        <label for="nombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" value="" required>
+                        <!-- <div class="valid-tooltip">
+                                        Success!
+                                    </div> -->
+                    </div>
+                    <div class="col-6 fs-3 lato-text mb-4 ms-3 text-start">
+                        <label for="apellido" class="form-label">Apellido:</label>
+                        <input type="text" class="form-control" id="apellido" value="" required>
+                        <!-- <div class="valid-tooltip">
+                                        Success!
+                                    </div> -->
+                    </div>
+                    <div class="col-10 fs-3 lato-text mb-4 text-start ms-3">
+                        <label for="username" class="form-label lato-text">Correo:</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="correo">@</span>
+                            <input type="text" class="form-control" id="username" aria-describedby="correo" value=""
+                                required>
+                            <!-- <div class="valid-tooltip">
+                                            Success!
+                                        </div> -->
+                        </div>
+                    </div>
+                    <div class="col-6 fs-3 lato-text mb-4 ms-3 text-start">
+                        <label for="ciudad" class="form-label lato-text">Ciudad:</label>
+                        <input type="text" class="form-control" id="ciudad" value="" required>
+                        <!-- <div class="valid-tooltip">
+                                        Success!
+                                    </div> -->
+                    </div>
+                    <div class="">
+                        <button class="btn btn-dark border col-4 roboto-mono-bttn" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-
-
-
-
-
-
-    Formulario Contacto -->
-    <!-- <button class="btn border-dark text-white fs-5 lato-black d-inline-block" type="button" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">¡ Contáctame !</button>
-
-    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body small">
-            ...
-        </div>
+    </footer>
+    <!-- <div class="fa-beat fa-spin">                                                 ULTIMATE DITTO SPINNERRRRRR
+                    <img src="assets/img/ditto dwi.png" alt="ditto swagg" width="15%"
+                        class="fa-solid fa-poo-bolt fa-beat-fade" style="--fa-beat-fade-opacity: 0.5">
     </div> -->
-
-
-
-    <!-- <ul class="nav flex-column border">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul> -->
-
-
-
-
-
-
-
     <script src="https://kit.fontawesome.com/f67d7dacca.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
