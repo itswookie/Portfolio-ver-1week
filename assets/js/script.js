@@ -16,7 +16,7 @@ $(document).ready(function () {
                     aseo del hogar, orden y justicia dentro de los quehaceres de la casa... Así es señores, en mi casa
                     mando
                     yo
-                    <span data-bs-toggle="collapse" data-bs-target="#dijo" class="btn text-white fs-3 roboto-mono-bttn"
+                    <span data-bs-toggle="collapse" data-bs-target="#dijo" class="btn text-white fs-3 roboto-mono-bttn border-bottom"
                         id="spant1">, CLARAMENTE.
                     <img src="assets/img/memedijo.png" alt="memedijo" class="collapse position-absolute" id="dijo"></span>`);
     $("#text2").html("");
@@ -31,7 +31,7 @@ $(document).ready(function () {
                       <i class="ms-5 fs-1 fa-brands fa-html5"></i>
                       <i class="ms-5 fs-1 fa-brands fa-bootstrap"></i>
                       <i class="ms-5 fs-1 fa-brands fa-github"></i>
-                      <i class="ms-5 fs-1 fa-brands fa-font-awesome"></i></div></br>`);
+                      <i class="ms-5 fs-1 fa-brands fa-font-awesome"></i></div>`);
     $("#text2").html(`En cuanto a capacidad personal o experiencias a lo largo de mi vida, puedo destacar en la seguridad de recursos humanos como guardia, garita, conserje, logística, etc.</br></br>También el manejo de apuestas deportivas dentro de un tiempo prolongado significante en los últimos años, es decir, manejo de stake, yield, profits, rentabilidad de mercados para lo que conlleva también, decisión rápida bajo alta presión, como también otros muchos escenarios que puede presentar el área.`);
   })
 
